@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Milkey Subway</h1>
+    <main>
+      <h2>promotional photos</h2>
+      <img
+        width="100%"
+        src="https://milkygalacticuniverse.com/assets/images/full/mv/img_sp.webp"
+        alt="milky subway"
+      />
+      <p>
+        Click
+        <a target="_blank" href="https://milkygalacticuniverse.com/"> here</a>
+        for the official web site.
+      </p>
+      <hr />
+      <h3>Nice things about surveys</h3>
+      <ul>
+        <li>They can provide <b>valuable</b> feedback.</li>
+        <li>Surveys can help <i>identify</i> areas for improvement.</li>
+        <li>
+          They allow for <i><b>anonymous</b></i> responses.
+        </li>
+      </ul>
+      <h3>Not so nice things about surveys</h3>
+      <ol>
+        <li>Low response rates can lead to biased results.</li>
+        <li>Poorly designed surveys can yield unreliable data.</li>
+        <li>Respondents may not always provide honest answers.</li>
+      </ol>
+      <hr />
+      <h2>Survey Form</h2>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="username">Name:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="Enter your username"
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="valid email only"
+        />
+        <br />
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+          placeholder="123-456-7890"
+        />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Survey Questions</legend>
+        <label for="radio">How satisfied are you with this service?</label>
+        <br />
+        <input
+          type="radio"
+          id="satisfied"
+          name="satisfaction"
+          value="satisfied"
+        />
+        <label for="satisfied">Satisfied</label>
+        <br />
+        <input type="radio" id="neutral" name="satisfaction" value="neutral" />
+        <label for="neutral">Neutral</label>
+        <br />
+        <input
+          type="radio"
+          id="dissatisfied"
+          name="satisfaction"
+          value="dissatisfied"
+        />
+        <label for="dissatisfied">Dissatisfied</label>
+        <br />
+        <label for="checkbox">Which character do you like?</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character1"
+          name="character"
+          value="character1"
+        />
+        <label for="character1">Chiharu Kujyo</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character2"
+          name="character"
+          value="character2"
+        />
+        <label for="character2">Makina Kurusu</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character3"
+          name="character"
+          value="character3"
+        />
+        <label for="character3">Ryoko Kanzaki</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character4"
+          name="character"
+          value="character4"
+        />
+        <label for="character4">Akane Daidouji</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character5"
+          name="character"
+          value="character5"
+        />
+        <label for="character5">Kanata iwao</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character6"
+          name="character"
+          value="character6"
+        />
+        <label for="character6">Max O'Donald Maccallister</label>
+        <br />
+        <input
+          type="checkbox"
+          id="character7"
+          name="character"
+          value="character7"
+        />
+        <label for="character7">Kurt Fitzgerald Cramer</label>
+        <br />
+        <label for="dropdown">How did you hear about this?</label>
+        <br />
+        <select id="dropdown" name="referral">
+          <option value="social_media">Social Media</option>
+          <option value="friend">Friend</option>
+          <option value="advertisement">Advertisement</option>
+          <option value="other">Other</option>
+        </select>
+        <br />
+        <textarea
+          placeholder="Any other comments?"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <br />
+        <input type="file" id="file" name="file" />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Feedback</legend>
+        <label for="feedback">Feedback:</label>
+        <br />
+        <textarea
+          id="feedback"
+          name="feedback"
+          rows="4"
+          cols="50"
+          placeholder="Enter your feedback for this survey here..."
+        ></textarea>
+        <br />
+      </fieldset>
+      <br />
+      <input type="reset" value="Reset" />
+      <br />
+      <input type="submit" value="Submit" />
+    </main>
+  </body>
+</html>
