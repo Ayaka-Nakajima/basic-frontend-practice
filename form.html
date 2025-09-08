@@ -18,7 +18,46 @@
       <br />
       <input type="checkbox" id="subscribe" name="subscribe" />
       <label for="subscribe">Subscribe to newsletter</label>
+      <br />
       <input type="submit" value="Submit" />
     </form>
+    <hr />
+    <form action="" method="get">
+      <label for="username_text">username:</label>
+      <input type="text" id="username_text" name="username_text" required />
+      <br />
+      <label for="username_radio">username:</label>
+      <input type="radio" id="username_radio" name="username_radio" required />
+      <input type="submit" />
+    </form>
+    <hr />
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" />
+      <br />
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" />
+      <br />
+      <label for="age">Age:</label>
+      <input type="color" id="age_color" name="age_color" />
+      <input type="date" id="age_date" name="age_date" />
+      <input type="datetime-local" id="age_datetime" name="age_datetime" />
+      <input type="file" id="age_file" name="age_file" />
+      <input type="time" id="age_time" name="age_time" />
+      <input type="number" id="age" name="age" min="0" max="120" />
+      <br />
+      <label for="bio">Biography:</label>
+      <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+    </fieldset>
+    <button>Click me</button>
+    <br />
+    <textarea placeholder="Enter text here" rows="4" cols="50"></textarea>
+    <hr />
+    <select name="courses" id="courses">
+      <option value="cis2107">cis 1</option>
+      <option value="cis2108">cis 2</option>
+      <option value="cis2109">cis 3</option>
+    </select>
   </body>
 </html>
