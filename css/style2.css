@@ -6,10 +6,17 @@ body {
   color: darkblue;
 }
 
-<!--override-- > p {
+/* <!--override-- >*/
+p {
   color: purple;
 }
 
 p {
   color: rgb(255, 0, 255);
+  /* tranceparency*/
+  background-color: rgb(255, 0, 255, 0.2);
+}
+
+div p {
+  background-color: #ffffff;
 }
