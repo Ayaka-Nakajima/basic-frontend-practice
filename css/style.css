@@ -7,6 +7,7 @@ p {
 
 body {
   font-size: 22px;
+  font-family: monospace;
 }
 /* multiple element selector */
 h1,
@@ -27,6 +28,7 @@ div p {
 .highlight {
   background-color: yellow;
   color: red;
+  text-transform: uppercase;
 }
 
 /* id selector */
@@ -34,7 +36,7 @@ div p {
   color: purple;
 }
 
-/* universal selector */
-* {
+/* universal selector DON'T USE IT*/
+/* * {
   font-family: monospace;
-}
+} */
