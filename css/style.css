@@ -1,0 +1,40 @@
+/*basically order matter, but id > class > element */
+/* element selector */
+
+p {
+  color: purple;
+}
+
+body {
+  font-size: 22px;
+}
+/* multiple element selector */
+h1,
+h2 {
+  color: blue;
+}
+
+/*nested element selector */
+div p {
+  color: green;
+}
+
+/* class selector */
+.red {
+  color: red;
+}
+
+.highlight {
+  background-color: yellow;
+  color: red;
+}
+
+/* id selector */
+#purple {
+  color: purple;
+}
+
+/* universal selector */
+* {
+  font-family: monospace;
+}
