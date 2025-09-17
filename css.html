@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <!-- the order matters -->
+
+    <!--type1-->
+    <style>
+      p {
+        color: green;
+      }
+    </style>
+
+    <!--type2 best way-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--type3: so annoying, never use-->
+    <!-- <p style="color: red">I'm learning CSS!</p> -->
+    <h1>I'm learning CSS!</h1>
+
+    <h2>article1</h2>
+    <div>
+      <span class = "highlight"> This is an article1</span><br />
+      <!-- lorem -->
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam id
+      nostrum iste exercitationem architecto officia provident impedit sapiente?
+      Consequuntur voluptas blanditiis inventore tempora eligendi mollitia
+      debitis dolor perferendis autem!
+      <p>hello</p>
+    </div>
+
+    <h2>article2</h2>
+    <!--class can be used multiple time, id is unique-->
+    <p class = "red" id = "purple">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, magnam.
+    </p>
+
+    <h2>article3</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Et quis sed aliquid nostrum, quo facere aliquam sunt alias quas 
+        pariatur ullam temporibus dolores sapiente omnis officia, 
+        iste quibusdam, minima voluptatum.
+    </div>
+    </body>
+
+    <button>
+      I'm learning CSS!
+    </button>   
+    <input type="text" placeholder="text">
+  
+</body>
+<!-- https://specificity.keegan.st/#google_vignette -->
+</html>
