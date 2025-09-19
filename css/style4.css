@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  border: dashed 2px rgb(78, 23, 166);
+}
+body {
+  margin: 1.1rem;
+}
+.outerdiv {
+  border: 2px solid black;
+  padding: 1.1rem;
+}
+.innerdiv {
+  margin: 1.1rem;
+  border: 2px solid red;
+  font-size: 1.1rem;
+  padding: 1.1rem;
+}

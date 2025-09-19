@@ -2,7 +2,7 @@
 /* element selector */
 
 p {
-  color: purple;
+  color: #64a6bd;
 }
 
 body {
@@ -17,7 +17,7 @@ h2 {
 
 /*nested element selector */
 div p {
-  color: green;
+  color: #90a8c3;
 }
 
 /* class selector */
@@ -33,7 +33,7 @@ div p {
 
 /* id selector */
 #purple {
-  color: purple;
+  color: #d7b9d5;
 }
 
 /* universal selector DON'T USE IT*/

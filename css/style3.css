@@ -1,0 +1,39 @@
+h1 {
+  border: dashed 2px red;
+  width: 50%;
+}
+
+p {
+  font-size: 32px;
+}
+/* default 16px for body in most browsers */
+
+body {
+  font-size: 1em; /* 1em = 16px */
+  font-family: monospace;
+  line-height: 1.5;
+  background-color: papayawhip;
+  color: darkblue;
+}
+
+.layer1 {
+  font-size: 2rem; /* 2em = 32px */
+}
+
+.layer2 {
+  font-size: 2rem;
+}
+
+.layer3 {
+  font-size: 2rem;
+}
+
+.layerA {
+  font-size: 2em;
+}
+.layerB {
+  font-size: 2em;
+}
+.layerC {
+  font-size: 2em;
+}
