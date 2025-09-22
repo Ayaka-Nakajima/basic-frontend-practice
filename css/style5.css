@@ -1,0 +1,20 @@
+.another {
+  color: white;
+  background-color: black;
+  padding: 100px;
+  display: inline-block;
+}
+
+body {
+  font-size: 2rem; /* 1rem = 16px */
+}
+
+main {
+  background-color: aqua;
+}
+p {
+  background-color: lightgrey;
+  width: 50%;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
