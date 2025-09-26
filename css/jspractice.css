@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://www.tuj.ac.jp/sites/japan/files/styles/tu_is_image_embedded/public/images_embedded/abouttuj1.jpg?itok=n0jDxoZo);
+  background-size: 100% 100%;
+  height: 100vh;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+.count {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+button {
+  padding: 10px 0;
+  width: 200px;
+  border: none;
+  margin: 20px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  font-family: consolas;
+}
+.increment-btn:hover {
+  background-color: rgb(255, 94, 94);
+  transition: 0.3s;
+}
+
+.increment-btn {
+  background-color: rgb(203, 5, 5);
+  color: white;
+}
+
+.decrement-btn:hover {
+  background-color: rgb(94, 94, 255);
+  transition: 0.3s;
+}
+.decrement-btn {
+  background-color: rgb(5, 5, 203);
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: rgb(94, 255, 94);
+  transition: 0.3s;
+}
+
+.save-btn {
+  background-color: rgb(5, 203, 5);
+  color: white;
+}
