@@ -29,3 +29,46 @@ h1 {
   left: 0;
   z-index: -1;
 }
+
+button {
+  padding: 10px 0;
+  width: 200px;
+  border: none;
+  margin: 20px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  font-family: consolas;
+}
+.increment-btn:hover {
+  background-color: rgb(255, 94, 94);
+  transition: 0.3s;
+}
+
+.increment-btn {
+  background-color: rgb(203, 5, 5);
+  color: white;
+}
+
+.decrement-btn:hover {
+  background-color: rgb(94, 94, 255);
+  transition: 0.3s;
+}
+.decrement-btn {
+  background-color: rgb(5, 5, 203);
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: rgb(94, 255, 94);
+  transition: 0.3s;
+}
+
+.save-btn {
+  background-color: rgb(5, 203, 5);
+  color: white;
+}
