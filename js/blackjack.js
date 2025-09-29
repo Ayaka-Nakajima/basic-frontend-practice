@@ -38,9 +38,6 @@ function drawCard() {
     cards.push(card);
     renderGame();
   } else {
-    starGameEl.style.display = "inherit";
-    starGameEl.style.margin = "10px auto";
-    starGameEl.style.textAlign = "center";
   }
 }
 function getRandomCard() {
@@ -50,4 +47,14 @@ function getRandomCard() {
     randomNumber = 10;
   }
   return randomNumber;
+}
+
+// reset game ここは授業でやってないけど途中まで作った
+function resetGame() {
+  isAlive = true;
+  firstCard = getRandomCard();
+  secondCard = getRandomCard();
+  cards = [firstCard, secondCard];
+  sum = firstCard + secondCard;
+  startGame();
 }
