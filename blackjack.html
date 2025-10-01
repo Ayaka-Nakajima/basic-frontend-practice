@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="css/blackjack.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <h1>Blackjack</h1>
+    <p class="message" id="message">Do you want to play game?</p>
+    <p class="cards" id="cards"></p>
+    <p class="sum" id="sum"></p>
+
+    <button onclick="startGame()" id="start-btn">START GAME</button>
+    <br />
+    <button onclick="drawCard()" id="draw-card-btn">DRAW CARD</button>
+    <br />
+    <button onclick="resetGame()" id="reset-btn">RESET GAME</button>
+    <script src="js/blackjack.js"></script>
+  </body>
+</html>

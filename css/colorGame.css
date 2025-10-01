@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.message {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.score {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+.red {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background-color: red;
+}
+
+.red:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.blue {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: blue;
+  margin-right: 0.5rem;
+}
+.blue:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.green {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.green:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.yellow {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: yellow;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.yellow:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+button {
+  background-color: lightgreen;
+  color: white;
+  width: 100px;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.start-btn:hover {
+  background-color: green;
+}
