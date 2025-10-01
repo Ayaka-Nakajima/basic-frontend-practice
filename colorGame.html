@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colorGame</title>
+    <link rel="stylesheet" href="css/colorGame.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <p class="message" id="message">Click the color!</p>
+    <p class="quiz" id="quiz"></p>
+    <button onclick="selectColor('red')" class="red" id="red">
+      <div id="circle"></div>
+    </button>
+    <button onclick="selectColor('blue')" class="blue" id="blue">
+      <div id="circle"></div>
+    </button>
+    <button onclick="selectColor('green')" class="green" id="green">
+      <div id="circle"></div>
+    </button>
+    <button onclick="selectColor('yellow')" class="yellow" id="yellow">
+      <div id="circle"></div>
+    </button>
+    <p>Score:</p>
+    <div class="score" id="score">0</div>
+    <button onclick="startGame()" id="start-btn">Start Game</button>
+    <script src="js/colorGame.js"></script>
+  </body>
+</html>
